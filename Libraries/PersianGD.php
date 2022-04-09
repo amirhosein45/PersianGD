@@ -5,7 +5,7 @@ namespace App\Libraries;
 
 class PersianGD {
 
-    public function persian_log2vis(&$str){
+    public function convert_to_persian(&$str){
 
     include_once('Bidi.php');
     

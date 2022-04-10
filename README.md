@@ -3,13 +3,13 @@ Codeigniter library to solve Persian problem with GD
 
 This library helps you to use Persian characters with GD in codeignietr 4.x
 
-# Installation
+## Installation
 ***
 1. [Download](https://github.com/amirhossein2020/PersianGD/archive/refs/heads/main.zip) the source files
 2. Copy the folder `Libraries` to `app` folder of your CodeIgniter installation
 3. That's it! Start using with the examples below 
 
-### Quick Start 
+## Quick Start 
 ***
 Let's get started :)
 First, we will load the PersianGD Library into the system
@@ -51,7 +51,7 @@ class Home extends BaseController
     public function index()
     {
 
-        $str = 'سلام ستنبالتنیبالایبت';
+        $str = 'سلام امیر';
 
         $gd = new PersianGD();
         $tx = $gd->convert_to_persian($str);

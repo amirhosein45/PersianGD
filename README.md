@@ -5,7 +5,7 @@ This library helps you to use Persian characters with GD in codeignietr 4.x
 
 ## Installation
 ***
-1. [Download](https://github.com/amirhossein2020/PersianGD/archive/refs/heads/main.zip) the source files
+1. [Download](https://github.com/amirhossein45/PersianGD/archive/refs/heads/main.zip) the source files
 2. Copy the folder `Libraries` to `app` folder of your CodeIgniter installation
 3. That's it! Start using with the examples below 
 
